@@ -2,6 +2,7 @@
 
 ## Table of contents
 * [General info](#general-info)
+* [Live Demo](#live-demo)
 * [Built with](#built-with)
 * [Requirements](#requirements)
 * [Setup](#setup)
@@ -11,6 +12,10 @@
 ## General info
 Simple calculator application that allows users to do several mathematical operations. Built with ReactJS Framework.
 ReactJS is A JavaScript library for building user interfaces. [More about ReactJs](https://reactjs.org/)
+
+## Live Demo
+[![Netlify Status](https://api.netlify.com/api/v1/badges/741c4cb0-421c-4fc7-bd6e-a5244fd3e989/deploy-status)](https://app.netlify.com/sites/calculator-2us/deploys)
+This project is live at https://calculator-2us.netlify.com/
 
 ## Built With
 Project is created with:
