@@ -1,0 +1,70 @@
+:root {
+  --mainWhite: #f3f3f3;
+  --mainDark: #727c7c;
+  --mainLight: #d3dde6;
+  --mainBlue: #98521a;
+  --mainRed: #e48873;
+  --shadow: rgba(0, 0, 0, 0.4);
+}
+
+body {
+  font-family: "Oswald", sans-serif !important;
+  background: var(--mainLight) !important;
+  color: var(--mainDark) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: var(--mainWhite);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 350px;
+}
+
+.title {
+  margin-bottom: 40px;
+  color: var(--mainBlue);
+}
+
+.form {
+  padding: 30px 40px;
+}
+
+.form-control {
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.input {
+  padding: 10px;
+  margin-right: 26px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px 20px 10px 20px;
+  margin-right: 10px;
+}
+
+.btn-black {
+  background: transparent;
+  color: var(--mainDark);
+  border-radius: 8px !important;
+  border: 0.1rem solid var(--mainDark) !important;
+  cursor: pointer;
+}
+
+.btn-black:hover {
+  background: var(--mainRed) !important;
+  color: var(--mainWhite) !important;
+}
+
+.result {
+  color: var(--mainBlue);
+}
